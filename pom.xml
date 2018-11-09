@@ -1,0 +1,165 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>automacao-api-luizsotto</groupId>
+  <artifactId>automacao-api-luizsotto-facebook</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>automacao-api-luizsotto-facebook</name>
+  
+ 
+  <properties>
+  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	<java.compiler.version>1.8</java.compiler.version>
+	<maven.compiler.plugin.version>3.3</maven.compiler.plugin.version>
+	<maven.compiler.source>1.8</maven.compiler.source>
+	<maven.compiler.target>1.8</maven.compiler.target>
+	<commons-io>2.4</commons-io>
+	<commons.lang.version>2.6</commons.lang.version>
+	<selenium.version>2.53.1</selenium.version>
+	<junit.version>4.12</junit.version>
+	<cucumber.version>1.2.5</cucumber.version>
+	<cucumber.picocontainer>1.2.5</cucumber.picocontainer>
+	<gherkin.version>2.12.2</gherkin.version>
+	<yaml.version>1.21</yaml.version>
+	<joda.time.version>2.3</joda.time.version>
+	<log4j.version>1.2.17</log4j.version>
+	<rest.assured.version>3.1.1</rest.assured.version>
+	<jackson.library>2.9.1</jackson.library>
+  </properties>
+  
+  <dependencies>
+  	<dependency>
+		<groupId>commons-lang</groupId>
+		<artifactId>commons-lang</artifactId>
+		<version>${commons.lang.version}</version>
+	</dependency>
+  	<dependency>
+		<groupId>commons-io</groupId>
+		<artifactId>commons-io</artifactId>
+		<version>${commons-io}</version>
+	</dependency>
+  	<dependency>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-firefox-driver</artifactId>
+		<version>${selenium.version}</version><!--$NO-MVN-MAN-VER$ -->
+	</dependency>
+	<dependency>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-ie-driver</artifactId>
+		<version>${selenium.version}</version><!--$NO-MVN-MAN-VER$ -->
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-chrome-driver</artifactId>
+	    <version>${selenium.version}</version><!--$NO-MVN-MAN-VER$-->
+	</dependency>		
+	<dependency>
+		<groupId>org.seleniumhq.selenium</groupId>
+		<artifactId>selenium-support</artifactId>
+		<version>${selenium.version}</version><!--$NO-MVN-MAN-VER$ -->
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
+	<dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>cucumber-junit</artifactId>
+	    <version>${cucumber.version}</version>
+	    <scope>test</scope>
+	</dependency>
+	<dependency>
+		<groupId>info.cukes</groupId>
+		<artifactId>cucumber-picocontainer</artifactId>
+		<version>${cucumber.picocontainer}</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
+	<dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>cucumber-java</artifactId>
+	    <version>${cucumber.version}</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-core -->
+	<dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>cucumber-core</artifactId>
+	    <version>${cucumber.version}</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/info.cukes/gherkin -->
+	<dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>gherkin</artifactId>
+	    <version>${gherkin.version}</version>
+	    <scope>provided</scope>
+	</dependency>
+	
+	<dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>2.6.2</version>
+        <scope>test</scope>
+    </dependency>
+	<dependency>
+		<groupId>joda-time</groupId>
+		<artifactId>joda-time</artifactId>
+		<version>${joda.time.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>io.rest-assured</groupId>
+		<artifactId>rest-assured</artifactId>
+		<version>${rest.assured.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>org.yaml</groupId>
+		<artifactId>snakeyaml</artifactId>
+		<version>${yaml.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>log4j</groupId>
+		<artifactId>log4j</artifactId>
+		<version>${log4j.version}</version>
+	</dependency>
+    <dependency>
+    	<groupId>junit</groupId>
+	    <artifactId>junit</artifactId>
+	    <version>${junit.version}</version>
+    </dependency>
+    <dependency>
+    	<groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>${jackson.library}</version>
+    </dependency>
+  </dependencies>
+  	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven.compiler.plugin.version}</version>
+				<configuration>
+					<source>${maven.compiler.source}</source>
+					<target>${maven.compiler.target}</target>
+				</configuration>
+			</plugin>
+			<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>3.0.1</version>
+                <executions>
+                    <execution>
+                        <id>copy-dependencies</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.build.directory}/bin</outputDirectory>
+                            <overWriteReleases>true</overWriteReleases>
+                            <overWriteSnapshots>true</overWriteSnapshots>
+                            <overWriteIfNewer>true</overWriteIfNewer>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+		</plugins>
+	</build>
+  
+</project>

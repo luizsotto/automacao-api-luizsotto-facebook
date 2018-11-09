@@ -1,0 +1,319 @@
+2018-11-07 23:38:22 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-07 23:38:22 INFO  Hooks:29 - Cenario: O usuário deve realizar a autenticação no facebook
+2018-11-07 23:38:22 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-07 23:38:26 INFO  Hooks:43 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-07 23:38:26 INFO  Hooks:44 - Fim do Cenario: 'O usuário deve realizar a autenticação no facebook' teve status failed
+2018-11-07 23:38:26 INFO  Hooks:45 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-07 23:47:23 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-07 23:47:23 INFO  Hooks:29 - Cenario: O usuário deve realizar a autenticação no facebook
+2018-11-07 23:47:23 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-07 23:47:46 INFO  Api:83 - https://graph.facebook.com/oauth/authorize?client_id=425423287989927&redirect_uri=http://localhost:8080/index.html
+2018-11-07 23:48:13 INFO  Hooks:43 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-07 23:48:13 INFO  Hooks:44 - Fim do Cenario: 'O usuário deve realizar a autenticação no facebook' teve status failed
+2018-11-07 23:48:13 INFO  Hooks:45 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-07 23:49:23 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-07 23:49:23 INFO  Hooks:29 - Cenario: O usuário deve realizar a autenticação no facebook
+2018-11-07 23:49:23 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-07 23:50:04 INFO  Api:83 - https://graph.facebook.com/oauth/authorize?client_id=425423287989927&redirect_uri=http://localhost:8080/index.html
+2018-11-07 23:50:29 ERROR ApplicationConfig:112 - invalid selector: Unable to locate an element with the xpath expression .//*[@id='pageTitle' and contains(text(),''Entrar no Facebook')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string './/*[@id='pageTitle' and contains(text(),''Entrar no Facebook')]' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 145 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LP1165', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\INMETR~1\AppData\Local\Temp\scoped_dir9144_5349}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=70.0.3538.77, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 93665a1ceb708d47ab8834a0ff11e948
+*** Element info: {Using=xpath, value=.//*[@id='pageTitle' and contains(text(),''Entrar no Facebook')]}
+org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression .//*[@id='pageTitle' and contains(text(),''Entrar no Facebook')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string './/*[@id='pageTitle' and contains(text(),''Entrar no Facebook')]' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.77)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 145 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'LP1165', ip: '192.168.0.10', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\INMETR~1\AppData\Local\Temp\scoped_dir9144_5349}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=70.0.3538.77, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 93665a1ceb708d47ab8834a0ff11e948
+*** Element info: {Using=xpath, value=.//*[@id='pageTitle' and contains(text(),''Entrar no Facebook')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at br.com.luizcruz.automacao.bean.ApplicationConfig.getDataByXpath(ApplicationConfig.java:108)
+	at br.com.luizcruz.automacao.pages.LoginPage.getCampoGenerico(LoginPage.java:32)
+	at br.com.luizcruz.automacao.pages.LoginPage.getTitulo(LoginPage.java:28)
+	at br.com.luizcruz.automacao.funcionalidade.FacebookApiFuncionalidade.realizarAutenticacaoNaApi(FacebookApiFuncionalidade.java:41)
+	at br.com.luizcruz.automacao.steps.FacebookApiSteps.realizarUmaAutenticacaoNaApi(FacebookApiSteps.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:40)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:34)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)
+2018-11-07 23:53:49 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-07 23:53:49 INFO  Hooks:29 - Cenario: O usuário deve realizar a autenticação no facebook
+2018-11-07 23:53:49 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-07 23:53:54 INFO  Api:83 - https://graph.facebook.com/oauth/authorize?client_id=425423287989927&redirect_uri=http://localhost:8080/index.html
+2018-11-07 23:54:33 INFO  FacebookApiFuncionalidade:49 - urlAtual: https://www.facebook.com/login.php?skip_api_login=1&api_key=425423287989927&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv3.2%2Fdialog%2Foauth%3Fredirect_uri%3Dhttp%253A%252F%252Flocalhost%253A8080%252Findex.html%26client_id%3D425423287989927%26ret%3Dlogin%26logger_id%3De8a2e036-2959-3c4a-3b71-cdde807ced59&cancel_url=http%3A%2F%2Flocalhost%3A8080%2Findex.html%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%23_%3D_&display=page&locale=pt_BR&logger_id=e8a2e036-2959-3c4a-3b71-cdde807ced59
+2018-11-07 23:54:42 INFO  Hooks:43 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-07 23:54:42 INFO  Hooks:44 - Fim do Cenario: 'O usuário deve realizar a autenticação no facebook' teve status failed
+2018-11-07 23:54:42 INFO  Hooks:45 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-07 23:56:35 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-07 23:56:35 INFO  Hooks:29 - Cenario: O usuário deve realizar a autenticação no facebook
+2018-11-07 23:56:35 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-07 23:56:39 INFO  Api:83 - https://graph.facebook.com/oauth/authorize?client_id=425423287989927&redirect_uri=http://localhost:8080/index.html
+2018-11-07 23:57:52 INFO  FacebookApiFuncionalidade:45 - null !=element
+2018-11-07 23:58:02 INFO  FacebookApiFuncionalidade:49 - urlAtual: https://www.facebook.com/login.php?skip_api_login=1&api_key=425423287989927&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv3.2%2Fdialog%2Foauth%3Fredirect_uri%3Dhttp%253A%252F%252Flocalhost%253A8080%252Findex.html%26client_id%3D425423287989927%26ret%3Dlogin%26logger_id%3D977c2b3f-39c9-1d63-0270-f1b9f3198ecc&cancel_url=http%3A%2F%2Flocalhost%3A8080%2Findex.html%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%23_%3D_&display=page&locale=pt_BR&logger_id=977c2b3f-39c9-1d63-0270-f1b9f3198ecc
+2018-11-08 00:00:32 INFO  FacebookApiFuncionalidade:64 - code: http%3A%2F%2Flocalhost%3A8080%2Findex.html%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%23_%3D_
+2018-11-08 00:00:32 INFO  Hooks:43 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 00:00:32 INFO  Hooks:44 - Fim do Cenario: 'O usuário deve realizar a autenticação no facebook' teve status passed
+2018-11-08 00:00:32 INFO  Hooks:45 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 00:01:37 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 00:01:37 INFO  Hooks:29 - Cenario: O usuário deve realizar a autenticação no facebook
+2018-11-08 00:01:37 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 00:01:42 INFO  Api:83 - https://graph.facebook.com/oauth/authorize?client_id=425423287989927&redirect_uri=http://localhost:8080/index.html
+2018-11-08 00:02:32 INFO  FacebookApiFuncionalidade:45 - null !=element
+2018-11-08 00:02:32 INFO  FacebookApiFuncionalidade:49 - urlAtual: https://www.facebook.com/login.php?skip_api_login=1&api_key=425423287989927&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv3.2%2Fdialog%2Foauth%3Fredirect_uri%3Dhttp%253A%252F%252Flocalhost%253A8080%252Findex.html%26client_id%3D425423287989927%26ret%3Dlogin%26logger_id%3D0b6dc59c-20c2-e952-308c-e87b16e142e5&cancel_url=http%3A%2F%2Flocalhost%3A8080%2Findex.html%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%23_%3D_&display=page&locale=pt_BR&logger_id=0b6dc59c-20c2-e952-308c-e87b16e142e5
+2018-11-08 00:03:56 INFO  FacebookApiFuncionalidade:64 - code: http%3A%2F%2Flocalhost%3A8080%2Findex.html%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%23_%3D_
+2018-11-08 00:03:56 INFO  Hooks:43 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 00:03:56 INFO  Hooks:44 - Fim do Cenario: 'O usuário deve realizar a autenticação no facebook' teve status passed
+2018-11-08 00:03:56 INFO  Hooks:45 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 00:05:38 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 00:05:38 INFO  Hooks:29 - Cenario: O usuário deve realizar a autenticação no facebook
+2018-11-08 00:05:38 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 00:05:43 INFO  Api:83 - https://graph.facebook.com/oauth/authorize?client_id=425423287989927&redirect_uri=http://localhost:8080/index.html
+2018-11-08 00:05:48 INFO  FacebookApiFuncionalidade:45 - null !=element
+2018-11-08 00:05:48 INFO  Hooks:43 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 00:05:48 INFO  Hooks:44 - Fim do Cenario: 'O usuário deve realizar a autenticação no facebook' teve status failed
+2018-11-08 00:05:48 INFO  Hooks:45 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 00:06:38 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 00:06:38 INFO  Hooks:29 - Cenario: O usuário deve realizar a autenticação no facebook
+2018-11-08 00:06:39 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 00:06:43 INFO  Api:83 - https://graph.facebook.com/oauth/authorize?client_id=425423287989927&redirect_uri=http://localhost:8080/index.html
+2018-11-08 00:06:49 INFO  FacebookApiFuncionalidade:45 - null !=element
+2018-11-08 00:09:17 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 00:09:17 INFO  Hooks:29 - Cenario: O usuário deve realizar a autenticação no facebook
+2018-11-08 00:09:17 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 00:09:22 INFO  Api:83 - https://graph.facebook.com/oauth/authorize?client_id=425423287989927&redirect_uri=http://localhost:8080/index.html
+2018-11-08 00:09:28 INFO  FacebookApiFuncionalidade:45 - null !=element
+2018-11-08 00:14:32 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 00:14:32 INFO  Hooks:29 - Cenario: O usuário deve realizar a autenticação no facebook
+2018-11-08 00:14:32 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 00:14:36 INFO  Api:83 - https://graph.facebook.com/oauth/authorize?client_id=425423287989927&redirect_uri=http://localhost:8080/index.html
+2018-11-08 00:14:42 INFO  FacebookApiFuncionalidade:45 - null !=element
+2018-11-08 00:14:42 INFO  Hooks:43 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 00:14:42 INFO  Hooks:44 - Fim do Cenario: 'O usuário deve realizar a autenticação no facebook' teve status failed
+2018-11-08 00:14:42 INFO  Hooks:45 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 07:43:58 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 07:43:58 INFO  Hooks:29 - Cenario: O usuário deve realizar a autenticação no facebook
+2018-11-08 07:43:58 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 07:44:05 INFO  Api:83 - https://graph.facebook.com/oauth/authorize?client_id=425423287989927&redirect_uri=http://localhost:8080/index.html
+2018-11-08 07:44:35 INFO  FacebookApiFuncionalidade:45 - null !=element
+2018-11-08 07:44:54 INFO  FacebookApiFuncionalidade:53 - urlAtual: https://web.facebook.com/login/device-based/regular/login/?login_attempt=1&next=https%3A%2F%2Fweb.facebook.com%2Fv3.2%2Fdialog%2Foauth%3Fredirect_uri%3Dhttp%253A%252F%252Flocalhost%253A8080%252Findex.html%26client_id%3D425423287989927%26ret%3Dlogin%26logger_id%3D482dbcc2-ff56-5060-b57d-a195ec3fef02&lwv=100
+2018-11-08 07:45:58 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 07:45:58 INFO  Hooks:29 - Cenario: O usuário deve realizar a autenticação no facebook
+2018-11-08 07:45:58 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 07:46:03 INFO  Api:83 - https://graph.facebook.com/oauth/authorize?client_id=425423287989927&redirect_uri=http://localhost:8080/index.html
+2018-11-08 07:46:46 INFO  FacebookApiFuncionalidade:45 - null !=element
+2018-11-08 07:46:54 INFO  FacebookApiFuncionalidade:53 - urlAtual: http://localhost:8080/index.html?code=AQB52UUh4pFDhVGJUAlS5MuKSP1BRwkoIC7nFKxptoW-TYaJqQzZdo2CowBc90WFQh_0mduW2I7tgwO6GWrnyUcFhiUg3C52oMaIoLkiXVh9HrGE1TZM3Tgmug9r4xj1VYNdPRay1Il30XWJAh6Qjay-KYskUj84O-Liu9E9LdTY_daltnRaad4toqOEfn-Ei5aFQueYfts2XMHHYkJDLQbk2tsQ3Cp2jzuFEWsNuR_thwy-BJdEWQynyaHy4eVqUMfQUaRlUQWUwgZdd2v-yWfzzlbSv3_uOglMj7Sxu315pIv1obCb1BvE7GDayJd7nuczbtkSKkqnB1FUrsN5W0dN31UXDvAeqqRUKaJT1TAUuQ#_=_
+2018-11-08 07:48:11 INFO  FacebookApiFuncionalidade:68 - code: AQB52UUh4pFDhVGJUAlS5MuKSP1BRwkoIC7nFKxptoW-TYaJqQzZdo2CowBc90WFQh_0mduW2I7tgwO6GWrnyUcFhiUg3C52oMaIoLkiXVh9HrGE1TZM3Tgmug9r4xj1VYNdPRay1Il30XWJAh6Qjay-KYskUj84O-Liu9E9LdTY_daltnRaad4toqOEfn-Ei5aFQueYfts2XMHHYkJDLQbk2tsQ3Cp2jzuFEWsNuR_thwy-BJdEWQynyaHy4eVqUMfQUaRlUQWUwgZdd2v-yWfzzlbSv3_uOglMj7Sxu315pIv1obCb1BvE7GDayJd7nuczbtkSKkqnB1FUrsN5W0dN31UXDvAeqqRUKaJT1TAUuQ#_=_
+2018-11-08 07:48:36 INFO  Hooks:43 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 07:48:36 INFO  Hooks:44 - Fim do Cenario: 'O usuário deve realizar a autenticação no facebook' teve status passed
+2018-11-08 07:48:36 INFO  Hooks:45 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 08:04:53 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 08:04:53 INFO  Hooks:29 - Cenario: O usuário deve solicitar um acces_token na API facebook
+2018-11-08 08:04:53 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 08:04:57 INFO  Hooks:43 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 08:04:57 INFO  Hooks:44 - Fim do Cenario: 'O usuário deve solicitar um acces_token na API facebook' teve status undefined
+2018-11-08 08:04:57 INFO  Hooks:45 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 12:38:54 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 12:38:54 INFO  Hooks:29 - Cenario: O usuário deve realizar a autenticação no facebook
+2018-11-08 12:38:54 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 12:39:00 INFO  ApiFuncionalidade:84 - https://graph.facebook.com/oauth/authorize?client_id=425423287989927&redirect_uri=http://localhost:8080/index.html
+2018-11-08 12:39:34 INFO  FacebookApiFuncionalidade:45 - null !=element
+2018-11-08 12:39:46 INFO  FacebookApiFuncionalidade:53 - urlAtual: http://localhost:8080/index.html?code=AQASO6yT46HiiUGJgiridDIRQLurOZERP1i5hWWgru8rPJ9zDUtBPMwvf-Z6MTbRwjXkQ5tX_wsAdJ-LJL-k5MZpgRQR-AdLw-ppPEKUx55phlONhuaAeNp9elPZUd3DSH7pxFSgkL6GhqGOOkodr3_Rvf39dVmhcieoIRWm0VV4mPJmmnEokMmr4wq-L0_QZMHXF8hHE4GATv7kYp2WXowYXyh5QROsKD99D51HPu4kx1xb7yRM4Sit1WtYYwzD4P8kVp04l6vQL6DZH31x5KQ2WthBdHfTHKbP3bk21rlS0kebbw6Fg1zZLd7NcXAGXTRs-z3w4-qAY5sfIncYQuHUcJIi_Zn0Ld-d1PSzpgAlkw#_=_
+2018-11-08 12:39:46 INFO  FacebookApiFuncionalidade:68 - code: AQASO6yT46HiiUGJgiridDIRQLurOZERP1i5hWWgru8rPJ9zDUtBPMwvf-Z6MTbRwjXkQ5tX_wsAdJ-LJL-k5MZpgRQR-AdLw-ppPEKUx55phlONhuaAeNp9elPZUd3DSH7pxFSgkL6GhqGOOkodr3_Rvf39dVmhcieoIRWm0VV4mPJmmnEokMmr4wq-L0_QZMHXF8hHE4GATv7kYp2WXowYXyh5QROsKD99D51HPu4kx1xb7yRM4Sit1WtYYwzD4P8kVp04l6vQL6DZH31x5KQ2WthBdHfTHKbP3bk21rlS0kebbw6Fg1zZLd7NcXAGXTRs-z3w4-qAY5sfIncYQuHUcJIi_Zn0Ld-d1PSzpgAlkw#_=_
+2018-11-08 12:57:41 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 12:57:41 INFO  Hooks:29 - Cenario: O usuário deve realizar a autenticação no facebook
+2018-11-08 12:57:41 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 12:57:45 INFO  ApiFuncionalidade:84 - https://graph.facebook.com/oauth/authorize?client_id=425423287989927&redirect_uri=http://localhost:8080/index.html
+2018-11-08 12:59:20 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 12:59:20 INFO  Hooks:29 - Cenario: O usuário deve realizar a autenticação no facebook
+2018-11-08 12:59:20 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 12:59:24 INFO  ApiFuncionalidade:84 - https://graph.facebook.com/oauth/authorize?client_id=425423287989927&redirect_uri=http://localhost:8080/index.html
+2018-11-08 13:00:28 INFO  FacebookApiFuncionalidade:47 - null !=element
+2018-11-08 13:00:35 INFO  FacebookApiFuncionalidade:55 - urlAtual: http://localhost:8080/index.html?code=AQBjACOpgfpZRMO8HV4JhfqQySclJuo134R0_FF3nPJfRYVZ_yGQ8Rkj0rBfGflTzsaSRCkt83Lhp6dAlarnLYWfNBgWsOqmQlGw6X48AAQGLTzEFUaM8udVx3onP8PZDiDFWqU_deI9AhwdITF5a_aXktbpypjVXHOwLYxjz-q2rhCJ8Dtxm-uCcOR3jHjGa0XLOkW1PQ3uKah_2v7ksMWzZ8nrss1nu0j5tZEoQUbqnmLBT-IXaj9JUmZKoc2fVd1K8qIbx-wcXE0VGARSrv3fRnT7EW1D1FtLDH5Auv0CT53KtQXeZhTniWFr-rpjxI_uO748OdEU_rgiv-fbrGc5Ld2NECw-z8TdZvZRxi-F1A#_=_
+2018-11-08 13:00:35 INFO  FacebookApiFuncionalidade:70 - code: AQBjACOpgfpZRMO8HV4JhfqQySclJuo134R0_FF3nPJfRYVZ_yGQ8Rkj0rBfGflTzsaSRCkt83Lhp6dAlarnLYWfNBgWsOqmQlGw6X48AAQGLTzEFUaM8udVx3onP8PZDiDFWqU_deI9AhwdITF5a_aXktbpypjVXHOwLYxjz-q2rhCJ8Dtxm-uCcOR3jHjGa0XLOkW1PQ3uKah_2v7ksMWzZ8nrss1nu0j5tZEoQUbqnmLBT-IXaj9JUmZKoc2fVd1K8qIbx-wcXE0VGARSrv3fRnT7EW1D1FtLDH5Auv0CT53KtQXeZhTniWFr-rpjxI_uO748OdEU_rgiv-fbrGc5Ld2NECw-z8TdZvZRxi-F1A#_=_
+2018-11-08 13:00:35 INFO  Hooks:43 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 13:00:35 INFO  Hooks:44 - Fim do Cenario: 'O usuário deve realizar a autenticação no facebook' teve status failed
+2018-11-08 13:00:35 INFO  Hooks:45 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 13:00:35 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 13:00:35 INFO  Hooks:29 - Cenario: O usuário deve solicitar um acces_token na API facebook
+2018-11-08 13:00:35 INFO  ApiFuncionalidade:101 - User url acces: https://graph.facebook.com/oauth/access_token?client_id=425423287989927&client_secret=&redirect_uri=http://localhost:8080/index.html&code=null
+2018-11-08 13:00:39 INFO  Hooks:43 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 13:00:39 INFO  Hooks:44 - Fim do Cenario: 'O usuário deve solicitar um acces_token na API facebook' teve status failed
+2018-11-08 13:00:39 INFO  Hooks:45 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 13:04:07 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 13:04:07 INFO  Hooks:29 - Cenario: O usuário deve realizar a autenticação no facebook
+2018-11-08 13:04:07 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 13:04:11 INFO  ApiFuncionalidade:84 - https://graph.facebook.com/oauth/authorize?client_id=425423287989927&redirect_uri=http://localhost:8080/index.html
+2018-11-08 13:04:55 INFO  FacebookApiFuncionalidade:47 - null !=element
+2018-11-08 13:05:03 INFO  FacebookApiFuncionalidade:55 - urlAtual: http://localhost:8080/index.html?code=AQB7e5XugUVMHxCITnJlCqjsv6Tddi1rajOzFj7cH8Yi4tkoAemnjU4tlZUQb5ThRcX5-6std4cU6O3xfqilVk5aUwmaQb8OAZfbH3CerMjS5gfXkWGddL9qHcpLfz7093ZUTJK69aqaLMqHPy9fHVNJZbJ5YMuIHgN4qm5WvvMP9-kGnNETz2OA55mxic7mVYnQusnZO2JQzkmSQDocmH2aBNVd0si1tW-G-33A47ipOy6xKKYcnTmH-8NdhvSOBqWBeYfpHsW9E4mJQEGfPCDjBbjNxmkLX9ObNM1hTMSTI-M_92GZFiYsmd244G3IPBycIiqlcVTJzlGzg5XLC-XjkQiMnonr0zwFYUGy16vx2g#_=_
+2018-11-08 13:05:03 INFO  FacebookApiFuncionalidade:70 - code: AQB7e5XugUVMHxCITnJlCqjsv6Tddi1rajOzFj7cH8Yi4tkoAemnjU4tlZUQb5ThRcX5-6std4cU6O3xfqilVk5aUwmaQb8OAZfbH3CerMjS5gfXkWGddL9qHcpLfz7093ZUTJK69aqaLMqHPy9fHVNJZbJ5YMuIHgN4qm5WvvMP9-kGnNETz2OA55mxic7mVYnQusnZO2JQzkmSQDocmH2aBNVd0si1tW-G-33A47ipOy6xKKYcnTmH-8NdhvSOBqWBeYfpHsW9E4mJQEGfPCDjBbjNxmkLX9ObNM1hTMSTI-M_92GZFiYsmd244G3IPBycIiqlcVTJzlGzg5XLC-XjkQiMnonr0zwFYUGy16vx2g#_=_
+2018-11-08 13:05:03 INFO  Hooks:43 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 13:05:03 INFO  Hooks:44 - Fim do Cenario: 'O usuário deve realizar a autenticação no facebook' teve status passed
+2018-11-08 13:05:03 INFO  Hooks:45 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 13:05:03 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 13:05:03 INFO  Hooks:29 - Cenario: O usuário deve solicitar um acces_token na API facebook
+2018-11-08 13:05:03 INFO  ApiFuncionalidade:101 - User url acces: https://graph.facebook.com/oauth/access_token?client_id=425423287989927&client_secret=&redirect_uri=http://localhost:8080/index.html&code=null
+2018-11-08 13:24:29 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 13:24:29 INFO  Hooks:29 - Cenario: O usuário deve solicitar um acces_token na API facebook
+2018-11-08 13:24:29 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 13:24:34 INFO  ApiFuncionalidade:84 - https://graph.facebook.com/oauth/authorize?client_id=425423287989927&redirect_uri=http://localhost:8080/index.html
+2018-11-08 13:25:23 INFO  FacebookApiFuncionalidade:47 - null !=element
+2018-11-08 13:25:29 INFO  FacebookApiFuncionalidade:55 - urlAtual: http://localhost:8080/index.html?code=AQB_nInz72cmt61qeORzkWesErJNqrI5dpiMf7uTIOVcg0UtFw5XCVuIlLmEpo-X-S-HLa6kEwh95q91xB_rFCRQSJX4_xau31ePbhR0rB-b-tT1l9PBvBqUaTzxwb0GT9GgwRx6xTrWdYUiddlIjRL7pY1OSRaXrqKsCbEtLp6HCLGoZbClYYj7MJ8PbDU0m09jTbHtan4ZpLk9b1F-S2OBEigxpMiX5UC2gb0i2E_USQsQRg7Rk1ZKGpWldlalNBBiBT_QGJlfuVFsRgxtN6ymcTglG0DA-O1nIzIUm8N6OrmttthFAQMrrt9ro8hcBpwnIJCqdJXTfRnq7yfv5SIvFQc93PfOegn4lvnK2ce0FA#_=_
+2018-11-08 13:25:29 INFO  FacebookApiFuncionalidade:70 - code: AQB_nInz72cmt61qeORzkWesErJNqrI5dpiMf7uTIOVcg0UtFw5XCVuIlLmEpo-X-S-HLa6kEwh95q91xB_rFCRQSJX4_xau31ePbhR0rB-b-tT1l9PBvBqUaTzxwb0GT9GgwRx6xTrWdYUiddlIjRL7pY1OSRaXrqKsCbEtLp6HCLGoZbClYYj7MJ8PbDU0m09jTbHtan4ZpLk9b1F-S2OBEigxpMiX5UC2gb0i2E_USQsQRg7Rk1ZKGpWldlalNBBiBT_QGJlfuVFsRgxtN6ymcTglG0DA-O1nIzIUm8N6OrmttthFAQMrrt9ro8hcBpwnIJCqdJXTfRnq7yfv5SIvFQc93PfOegn4lvnK2ce0FA#_=_
+2018-11-08 13:25:29 INFO  ApiFuncionalidade:101 - User url acces: https://graph.facebook.com/oauth/access_token?client_id=425423287989927&client_secret=&redirect_uri=http://localhost:8080/index.html&code=AQB_nInz72cmt61qeORzkWesErJNqrI5dpiMf7uTIOVcg0UtFw5XCVuIlLmEpo-X-S-HLa6kEwh95q91xB_rFCRQSJX4_xau31ePbhR0rB-b-tT1l9PBvBqUaTzxwb0GT9GgwRx6xTrWdYUiddlIjRL7pY1OSRaXrqKsCbEtLp6HCLGoZbClYYj7MJ8PbDU0m09jTbHtan4ZpLk9b1F-S2OBEigxpMiX5UC2gb0i2E_USQsQRg7Rk1ZKGpWldlalNBBiBT_QGJlfuVFsRgxtN6ymcTglG0DA-O1nIzIUm8N6OrmttthFAQMrrt9ro8hcBpwnIJCqdJXTfRnq7yfv5SIvFQc93PfOegn4lvnK2ce0FA#_=_
+2018-11-08 13:26:57 INFO  Hooks:43 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 13:26:57 INFO  Hooks:44 - Fim do Cenario: 'O usuário deve solicitar um acces_token na API facebook' teve status failed
+2018-11-08 13:26:57 INFO  Hooks:45 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 13:40:44 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 13:40:44 INFO  Hooks:29 - Cenario: O usuário deve solicitar um acces_token na API facebook
+2018-11-08 13:40:44 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 13:40:49 INFO  ApiFuncionalidade:84 - https://graph.facebook.com/oauth/authorize?client_id=425423287989927&redirect_uri=http://localhost:8080/index.html
+2018-11-08 13:42:35 INFO  FacebookApiFuncionalidade:50 - null !=element
+2018-11-08 13:43:08 INFO  FacebookApiFuncionalidade:58 - urlAtual: http://localhost:8080/index.html?code=AQDflQohAHdIGheoh9op-0i4IzD2WreuX0ZCXWSPoUq_4BHDn0-1IyxgPOL8diAdH1jH5N1CIt6IYpzxIhsjOiKSZIcDEN07s2WvMuheiDKXg8eXZzrPIC2kvjnu-PU6XzSQGCn9f1RKlIYgZOz28kWngCLm8lNBwYdVG3t930UguCt5wwrd9fviWFAXCqF9CiRJ57K85bU72OL5EPIl6n4SiJWIDHGolP2ClPHDZrzXo3UWlZ_2voBleMkMYwHe1ikRaBrFPr2Fp2TEvQYJzU4y-eAbataJKFCruHSwmm83L4pMq6jETPfl36q2P9zzQB3pQt2z6ZlXiDtend1vTXowc3NW-vN65SWDwp7hPXjIsw#_=_
+2018-11-08 13:43:08 INFO  FacebookApiFuncionalidade:73 - code: AQDflQohAHdIGheoh9op-0i4IzD2WreuX0ZCXWSPoUq_4BHDn0-1IyxgPOL8diAdH1jH5N1CIt6IYpzxIhsjOiKSZIcDEN07s2WvMuheiDKXg8eXZzrPIC2kvjnu-PU6XzSQGCn9f1RKlIYgZOz28kWngCLm8lNBwYdVG3t930UguCt5wwrd9fviWFAXCqF9CiRJ57K85bU72OL5EPIl6n4SiJWIDHGolP2ClPHDZrzXo3UWlZ_2voBleMkMYwHe1ikRaBrFPr2Fp2TEvQYJzU4y-eAbataJKFCruHSwmm83L4pMq6jETPfl36q2P9zzQB3pQt2z6ZlXiDtend1vTXowc3NW-vN65SWDwp7hPXjIsw#_=_
+2018-11-08 13:43:08 INFO  ApiFuncionalidade:101 - User url acces: https://graph.facebook.com/oauth/access_token?client_id=425423287989927&client_secret=&redirect_uri=http://localhost:8080/index.html&code=AQDflQohAHdIGheoh9op-0i4IzD2WreuX0ZCXWSPoUq_4BHDn0-1IyxgPOL8diAdH1jH5N1CIt6IYpzxIhsjOiKSZIcDEN07s2WvMuheiDKXg8eXZzrPIC2kvjnu-PU6XzSQGCn9f1RKlIYgZOz28kWngCLm8lNBwYdVG3t930UguCt5wwrd9fviWFAXCqF9CiRJ57K85bU72OL5EPIl6n4SiJWIDHGolP2ClPHDZrzXo3UWlZ_2voBleMkMYwHe1ikRaBrFPr2Fp2TEvQYJzU4y-eAbataJKFCruHSwmm83L4pMq6jETPfl36q2P9zzQB3pQt2z6ZlXiDtend1vTXowc3NW-vN65SWDwp7hPXjIsw#_=_
+2018-11-08 13:44:38 INFO  FacebookApiFuncionalidade:127 - {"error":{"message":"Error validating client secret.","type":"OAuthException","code":1,"fbtrace_id":"ELbUC3wgm54"}}
+2018-11-08 13:53:47 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 13:53:47 INFO  Hooks:29 - Cenario: O usuário deve solicitar um acces_token na API facebook
+2018-11-08 13:53:47 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 13:53:51 INFO  ApiFuncionalidade:84 - https://graph.facebook.com/oauth/authorize?client_id=425423287989927&redirect_uri=http://localhost:8080/index.html
+2018-11-08 13:55:28 INFO  FacebookApiFuncionalidade:50 - null !=element
+2018-11-08 13:55:35 INFO  FacebookApiFuncionalidade:58 - urlAtual: http://localhost:8080/index.html?code=AQDhrxs8gnEL0LeAB2Fw7H8n8HjMbacytTVlOPzjv_jTAMex-fne_EruHB1tb4Tpho7UCArd4DfSPnR44mZCDokXE7fMHMFZFmsQM7iebB-0yKOLWdb3zbrVCHebgMreB2BzbfurQlx47r7B4tku_2fI7jOK-RRp8isIiPpc5m3drRg5fWHQb0plt_r5XVfnnb1Q-6ZuKAtjfN6LbfR3vrPpMl0p4WKJBBRSWgN2IYaNcKfpPEZrrZiQNnNsoLegZ_mYWjWoDBmt5l06yTltjh_T0uCiTbeZixX1ZsJm7Fzn_2Bj-vzDF5Kh17wAdA3f86gIqNIXnEE2ZVonN53bQPJYr810P0O336kPjlar1zV9tQ#_=_
+2018-11-08 13:55:35 INFO  FacebookApiFuncionalidade:73 - code: AQDhrxs8gnEL0LeAB2Fw7H8n8HjMbacytTVlOPzjv_jTAMex-fne_EruHB1tb4Tpho7UCArd4DfSPnR44mZCDokXE7fMHMFZFmsQM7iebB-0yKOLWdb3zbrVCHebgMreB2BzbfurQlx47r7B4tku_2fI7jOK-RRp8isIiPpc5m3drRg5fWHQb0plt_r5XVfnnb1Q-6ZuKAtjfN6LbfR3vrPpMl0p4WKJBBRSWgN2IYaNcKfpPEZrrZiQNnNsoLegZ_mYWjWoDBmt5l06yTltjh_T0uCiTbeZixX1ZsJm7Fzn_2Bj-vzDF5Kh17wAdA3f86gIqNIXnEE2ZVonN53bQPJYr810P0O336kPjlar1zV9tQ#_=_
+2018-11-08 13:55:35 INFO  ApiFuncionalidade:102 - User url acces: https://graph.facebook.com/oauth/access_token?client_id=425423287989927&client_secret=efa0684c4b2b8f98e34bc4ae48cd3f52&redirect_uri=http://localhost:8080/index.html&code=AQDhrxs8gnEL0LeAB2Fw7H8n8HjMbacytTVlOPzjv_jTAMex-fne_EruHB1tb4Tpho7UCArd4DfSPnR44mZCDokXE7fMHMFZFmsQM7iebB-0yKOLWdb3zbrVCHebgMreB2BzbfurQlx47r7B4tku_2fI7jOK-RRp8isIiPpc5m3drRg5fWHQb0plt_r5XVfnnb1Q-6ZuKAtjfN6LbfR3vrPpMl0p4WKJBBRSWgN2IYaNcKfpPEZrrZiQNnNsoLegZ_mYWjWoDBmt5l06yTltjh_T0uCiTbeZixX1ZsJm7Fzn_2Bj-vzDF5Kh17wAdA3f86gIqNIXnEE2ZVonN53bQPJYr810P0O336kPjlar1zV9tQ#_=_
+2018-11-08 13:55:52 INFO  FacebookApiFuncionalidade:127 - {"access_token":"EAAGC65P1tqcBAL7wwAimnhjMPpFcrwP5dnbIXjrTbjsVycoR95lRB2CUJX2VZCQdyZAyaDlJZCuWz100xxxJ1nBieHL6LUnaHmJ0sIzfjfJOpLLZCF0ZCtLHwLmphufm6JTjzA4FjHsNYbvkNNfxyeNYpU0mAc9jFCO5w0KBAsfrn6XQBayOe","token_type":"bearer","expires_in":5123798}
+2018-11-08 13:56:18 INFO  FacebookApiFuncionalidade:130 - response: br.com.luizcruz.automacao.bean.OutPutAutenticacaoResponse@32256e68[accessToken=EAAGC65P1tqcBAL7wwAimnhjMPpFcrwP5dnbIXjrTbjsVycoR95lRB2CUJX2VZCQdyZAyaDlJZCuWz100xxxJ1nBieHL6LUnaHmJ0sIzfjfJOpLLZCF0ZCtLHwLmphufm6JTjzA4FjHsNYbvkNNfxyeNYpU0mAc9jFCO5w0KBAsfrn6XQBayOe,tokenType=bearer,expiresIn=5123798,error=<null>,mapaDadosAdicionais={}]
+2018-11-08 13:56:18 INFO  Hooks:43 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 13:56:18 INFO  Hooks:44 - Fim do Cenario: 'O usuário deve solicitar um acces_token na API facebook' teve status passed
+2018-11-08 13:56:18 INFO  Hooks:45 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 14:44:02 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 14:44:02 INFO  Hooks:29 - Cenario: O usuário deve solicitar um acces_token do seu App na API facebook
+2018-11-08 14:44:02 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 14:44:09 INFO  Hooks:43 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 14:44:09 INFO  Hooks:44 - Fim do Cenario: 'O usuário deve solicitar um acces_token do seu App na API facebook' teve status undefined
+2018-11-08 14:44:09 INFO  Hooks:45 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 14:48:16 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 14:48:16 INFO  Hooks:29 - Cenario: O usuário deve solicitar um acces_token do seu App na API facebook
+2018-11-08 14:48:16 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 14:48:20 INFO  Hooks:43 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 14:48:20 INFO  Hooks:44 - Fim do Cenario: 'O usuário deve solicitar um acces_token do seu App na API facebook' teve status undefined
+2018-11-08 14:48:20 INFO  Hooks:45 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 19:39:42 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 19:39:42 INFO  Hooks:29 - Cenario: O usuário posta uma mensagem na sua timeline.
+2018-11-08 19:39:42 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 19:39:51 INFO  ApiFuncionalidade:84 - https://graph.facebook.com/oauth/authorize?client_id=425423287989927&redirect_uri=http://localhost:8080/index.html
+2018-11-08 19:39:56 INFO  FacebookApiFuncionalidade:49 - null !=element
+2018-11-08 19:40:01 INFO  FacebookApiFuncionalidade:57 - urlAtual: http://localhost:8080/index.html?code=AQDg9jHbUJ3THxVLAm-HO8flhITcIbxmJ8z3WpUC_g41BGdvjzfQ8ysVtD0StSv8kYOoVnRpfFUIdW0zNCNPkySPM_JZmw2dUakV3BTTd6ARh86gp14u-nWUlKUGohnBS21DbDTZQJorWq_zjyo_exdO0wOcUxH85g-JfMxPE0DSZvw7Itqql0H4I5j1ogNTxROLvKC5CSCzcwpu2eA9LPj6xDSo5J2UpPsXeuKNNiVnhA9qpr_ELzoV4DBZcup6drcsSYhynqSGWmb_erprcplgBLi02HuaqdQqtPYQhDxD2NsD-QLugKvpJaOnKDH82JMCDDobsHkElXIZu3eSBOHeJshur9PuEWy2WVFg7ao1qg#_=_
+2018-11-08 19:40:01 INFO  FacebookApiFuncionalidade:72 - code: AQDg9jHbUJ3THxVLAm-HO8flhITcIbxmJ8z3WpUC_g41BGdvjzfQ8ysVtD0StSv8kYOoVnRpfFUIdW0zNCNPkySPM_JZmw2dUakV3BTTd6ARh86gp14u-nWUlKUGohnBS21DbDTZQJorWq_zjyo_exdO0wOcUxH85g-JfMxPE0DSZvw7Itqql0H4I5j1ogNTxROLvKC5CSCzcwpu2eA9LPj6xDSo5J2UpPsXeuKNNiVnhA9qpr_ELzoV4DBZcup6drcsSYhynqSGWmb_erprcplgBLi02HuaqdQqtPYQhDxD2NsD-QLugKvpJaOnKDH82JMCDDobsHkElXIZu3eSBOHeJshur9PuEWy2WVFg7ao1qg#_=_
+2018-11-08 19:40:01 INFO  ApiFuncionalidade:102 - User url acces: https://graph.facebook.com/oauth/access_token?client_id=425423287989927&client_secret=efa0684c4b2b8f98e34bc4ae48cd3f52&redirect_uri=http://localhost:8080/index.html&code=AQDg9jHbUJ3THxVLAm-HO8flhITcIbxmJ8z3WpUC_g41BGdvjzfQ8ysVtD0StSv8kYOoVnRpfFUIdW0zNCNPkySPM_JZmw2dUakV3BTTd6ARh86gp14u-nWUlKUGohnBS21DbDTZQJorWq_zjyo_exdO0wOcUxH85g-JfMxPE0DSZvw7Itqql0H4I5j1ogNTxROLvKC5CSCzcwpu2eA9LPj6xDSo5J2UpPsXeuKNNiVnhA9qpr_ELzoV4DBZcup6drcsSYhynqSGWmb_erprcplgBLi02HuaqdQqtPYQhDxD2NsD-QLugKvpJaOnKDH82JMCDDobsHkElXIZu3eSBOHeJshur9PuEWy2WVFg7ao1qg#_=_
+2018-11-08 19:40:20 INFO  FacebookApiFuncionalidade:119 - response: br.com.luizcruz.automacao.bean.OutPutAutenticacaoResponse@7df6d663[accessToken=EAAGC65P1tqcBAJfOpQy68HcwUKZB9jFUuUrHql4puEgJFPUzxyjL14UMdftbqAFNQBCoxgXrT44e2gqKwYE4WGJFX4fekn8pLELhQSRPj0y4QyusdjwIzMNL6cZCZBY0Na0DvfPFMxZAU6TDWw1od5quAdBVQboXWLAxl338puw67v296SCx,tokenType=bearer,expiresIn=5103132,error=<null>,mapaDadosAdicionais={}]
+2018-11-08 19:40:27 INFO  ApiFuncionalidade:116 - App url acces: https://graph.facebook.com/oauth/access_token?client_id=425423287989927&client_secret=efa0684c4b2b8f98e34bc4ae48cd3f52&&grant_type=client_credentials
+2018-11-08 19:41:23 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 19:41:23 INFO  Hooks:29 - Cenario: O usuário posta uma mensagem na sua timeline.
+2018-11-08 19:41:23 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 19:41:27 INFO  ApiFuncionalidade:84 - https://graph.facebook.com/oauth/authorize?client_id=425423287989927&redirect_uri=http://localhost:8080/index.html
+2018-11-08 19:41:32 INFO  FacebookApiFuncionalidade:49 - null !=element
+2018-11-08 19:41:37 INFO  FacebookApiFuncionalidade:57 - urlAtual: http://localhost:8080/index.html?code=AQAiQdMGMSBGp4D6vYIetxD4RyqGKown1dNtdIhhZMpmo5i2dN2-5hRbI9f1ceGXF4aKGiAr9LUKfh9TVq2eouvVw7ZsD132XZZOLRJC3ESR94k_Rt1wDXKxAx8UZZ3iRDkU_k2p0vPVWAmXotc31rkaf71ckPMMsFhWjs_NZtaJjkgTCthufFW6wCSHEIDw6HFzbylAgB9aWbHNrm1p2U1UROwDVmdMycAtqgb79wMHuWq06qEMgvlBivIxAkVVRf-r9dbHe3QVQIUFSTTt9aszBzCaqHKJ34Ky__dSeFnAjR3epsPzGsjHRxkjtaPghR1_DpTG2nlq1L-XUgy4Gug59tLq3xXNIhTIlOWECvUPSw#_=_
+2018-11-08 19:41:37 INFO  FacebookApiFuncionalidade:72 - code: AQAiQdMGMSBGp4D6vYIetxD4RyqGKown1dNtdIhhZMpmo5i2dN2-5hRbI9f1ceGXF4aKGiAr9LUKfh9TVq2eouvVw7ZsD132XZZOLRJC3ESR94k_Rt1wDXKxAx8UZZ3iRDkU_k2p0vPVWAmXotc31rkaf71ckPMMsFhWjs_NZtaJjkgTCthufFW6wCSHEIDw6HFzbylAgB9aWbHNrm1p2U1UROwDVmdMycAtqgb79wMHuWq06qEMgvlBivIxAkVVRf-r9dbHe3QVQIUFSTTt9aszBzCaqHKJ34Ky__dSeFnAjR3epsPzGsjHRxkjtaPghR1_DpTG2nlq1L-XUgy4Gug59tLq3xXNIhTIlOWECvUPSw#_=_
+2018-11-08 19:41:37 INFO  ApiFuncionalidade:102 - User url acces: https://graph.facebook.com/oauth/access_token?client_id=425423287989927&client_secret=efa0684c4b2b8f98e34bc4ae48cd3f52&redirect_uri=http://localhost:8080/index.html&code=AQAiQdMGMSBGp4D6vYIetxD4RyqGKown1dNtdIhhZMpmo5i2dN2-5hRbI9f1ceGXF4aKGiAr9LUKfh9TVq2eouvVw7ZsD132XZZOLRJC3ESR94k_Rt1wDXKxAx8UZZ3iRDkU_k2p0vPVWAmXotc31rkaf71ckPMMsFhWjs_NZtaJjkgTCthufFW6wCSHEIDw6HFzbylAgB9aWbHNrm1p2U1UROwDVmdMycAtqgb79wMHuWq06qEMgvlBivIxAkVVRf-r9dbHe3QVQIUFSTTt9aszBzCaqHKJ34Ky__dSeFnAjR3epsPzGsjHRxkjtaPghR1_DpTG2nlq1L-XUgy4Gug59tLq3xXNIhTIlOWECvUPSw#_=_
+2018-11-08 19:41:41 INFO  FacebookApiFuncionalidade:119 - response: br.com.luizcruz.automacao.bean.OutPutAutenticacaoResponse@172f4514[accessToken=EAAGC65P1tqcBAHaZA1xWSfzEqVb8j25sYIthKeCr3mg4qee2m3oghg3OYE6yGhgAWxwnxUgZBvnQyc7qcs9i0NdiRtwqnTSNCpN7jjg9tDDLU5ops13vcZC9oZCjIjzsBX6InM0EF2wBQuvPjTPfszlqb1zuPuih9Jd6aZA7BU4AkUWWxAJB2,tokenType=bearer,expiresIn=5103036,error=<null>,mapaDadosAdicionais={}]
+2018-11-08 19:41:49 INFO  ApiFuncionalidade:116 - App url acces: https://graph.facebook.com/oauth/access_token?client_id=425423287989927&client_secret=efa0684c4b2b8f98e34bc4ae48cd3f52&grant_type=client_credentials
+2018-11-08 19:43:57 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 19:43:57 INFO  Hooks:29 - Cenario: O usuário posta uma mensagem na sua timeline.
+2018-11-08 19:43:57 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 19:44:01 INFO  ApiFuncionalidade:84 - https://graph.facebook.com/oauth/authorize?client_id=425423287989927&redirect_uri=http://localhost:8080/index.html
+2018-11-08 19:44:06 INFO  FacebookApiFuncionalidade:49 - null !=element
+2018-11-08 19:44:11 INFO  FacebookApiFuncionalidade:57 - urlAtual: http://localhost:8080/index.html?code=AQBCX2RejFNl-VCzJo8XyusS3KP6OxCx-Q7G9xQCcCNLQZ4h_XUkVQbPiD6sEZGfuosqMSEAL_i3L_3o9Td_u6qreQX4uLw4Mhfwdo-wKdMs2MoMMG--SHY85MFOOIbUx1MAEsjOBbac0lD3jEU5PLTN73ouP1GV4RaJWZTaADssoVoNZtd_3GFZEEw9zS57dG7l1Vtnmkhywzs77sGyC0Bfys_Mq9CP1JcX2z7sIp8565UvjW6mJFulEVkkwo8wDkhmRldeRpwWv4R3IkfUdPNBnCtTZSLb-YiQmdoCruvoifjlJ-xcb8Ea4fI_7ZypTX1EdqRoIdFTZlhCPBQjX0mmCuvV0029jyVhjMQ5cWXFeg#_=_
+2018-11-08 19:44:11 INFO  FacebookApiFuncionalidade:72 - code: AQBCX2RejFNl-VCzJo8XyusS3KP6OxCx-Q7G9xQCcCNLQZ4h_XUkVQbPiD6sEZGfuosqMSEAL_i3L_3o9Td_u6qreQX4uLw4Mhfwdo-wKdMs2MoMMG--SHY85MFOOIbUx1MAEsjOBbac0lD3jEU5PLTN73ouP1GV4RaJWZTaADssoVoNZtd_3GFZEEw9zS57dG7l1Vtnmkhywzs77sGyC0Bfys_Mq9CP1JcX2z7sIp8565UvjW6mJFulEVkkwo8wDkhmRldeRpwWv4R3IkfUdPNBnCtTZSLb-YiQmdoCruvoifjlJ-xcb8Ea4fI_7ZypTX1EdqRoIdFTZlhCPBQjX0mmCuvV0029jyVhjMQ5cWXFeg#_=_
+2018-11-08 19:44:11 INFO  ApiFuncionalidade:102 - User url acces: https://graph.facebook.com/oauth/access_token?client_id=425423287989927&client_secret=efa0684c4b2b8f98e34bc4ae48cd3f52&redirect_uri=http://localhost:8080/index.html&code=AQBCX2RejFNl-VCzJo8XyusS3KP6OxCx-Q7G9xQCcCNLQZ4h_XUkVQbPiD6sEZGfuosqMSEAL_i3L_3o9Td_u6qreQX4uLw4Mhfwdo-wKdMs2MoMMG--SHY85MFOOIbUx1MAEsjOBbac0lD3jEU5PLTN73ouP1GV4RaJWZTaADssoVoNZtd_3GFZEEw9zS57dG7l1Vtnmkhywzs77sGyC0Bfys_Mq9CP1JcX2z7sIp8565UvjW6mJFulEVkkwo8wDkhmRldeRpwWv4R3IkfUdPNBnCtTZSLb-YiQmdoCruvoifjlJ-xcb8Ea4fI_7ZypTX1EdqRoIdFTZlhCPBQjX0mmCuvV0029jyVhjMQ5cWXFeg#_=_
+2018-11-08 19:44:15 INFO  FacebookApiFuncionalidade:119 - response: br.com.luizcruz.automacao.bean.OutPutAutenticacaoResponse@7df6d663[accessToken=EAAGC65P1tqcBAMW7EHvS8ZAPahdD3SpQaCqLQigm5Xczj8deec7ENzuYW4arYjtV2dTstpe5WovyISR7s0EvQpxZAOhsTvlr9QUPM2m9VK9AkBg3P3UWV2NaYjGdgSMK3i1bgEBmxpmUm5SeBa39B7ozuGQd3TPBN2yaZC5TDlZBxyEuFUZCB,tokenType=bearer,expiresIn=5102883,error=<null>,mapaDadosAdicionais={}]
+2018-11-08 19:44:26 INFO  ApiFuncionalidade:116 - App url acces: https://graph.facebook.com/oauth/access_token?client_id=425423287989927&client_secret=efa0684c4b2b8f98e34bc4ae48cd3f52&grant_type=client_credentials
+2018-11-08 19:44:29 INFO  FacebookApiFuncionalidade:119 - response: br.com.luizcruz.automacao.bean.OutPutAutenticacaoResponse@52d0f583[accessToken=425423287989927|NQqHMJ7da5P9RaX6Bawh6qTpSKM,tokenType=bearer,expiresIn=<null>,error=<null>,mapaDadosAdicionais={}]
+2018-11-08 19:44:42 INFO  ApiFuncionalidade:131 - App url acces: https://graph.facebook.com/debug_token?input_token=EAAGC65P1tqcBAMW7EHvS8ZAPahdD3SpQaCqLQigm5Xczj8deec7ENzuYW4arYjtV2dTstpe5WovyISR7s0EvQpxZAOhsTvlr9QUPM2m9VK9AkBg3P3UWV2NaYjGdgSMK3i1bgEBmxpmUm5SeBa39B7ozuGQd3TPBN2yaZC5TDlZBxyEuFUZCB&access_token=425423287989927|NQqHMJ7da5P9RaX6Bawh6qTpSKM
+2018-11-08 21:54:16 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 21:54:16 INFO  Hooks:29 - Cenario: O usuário posta uma mensagem na sua timeline.
+2018-11-08 21:54:16 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 21:54:21 INFO  ApiFuncionalidade:84 - https://graph.facebook.com/oauth/authorize?client_id=425423287989927&redirect_uri=http://localhost:8080/index.html
+2018-11-08 21:54:28 INFO  FacebookApiFuncionalidade:50 - null !=element
+2018-11-08 21:54:33 INFO  FacebookApiFuncionalidade:58 - urlAtual: http://localhost:8080/index.html?code=AQCZMnkHcjMxssTgyXI19_l4OG_LLhCjDgfbK_A9Idu-nBXEejcrWRrJL_6up_RzXRMB0SZirQ8jD4KMewfWscmpzVqWGzyYvQkgBriY0SwMyOWGhmQ0vMl9PhgCIIfK-7QEsESpRm__8BJSU671jDO0tLAYTiwUTePGspTAaiHRV5g2zcKwSyQVKorjF2AY0J5q9PS6okMPrCCiRNlZX-Magri85syaARfpjAyiwDnOA43wUFAol5L-bIUVJ2NlwUIsZiT6FQBLlR1_AiKUi_TlK9PMFKFdi_9Mju5aPHZ60_8EG7N4NU0njFU21pM7r7cPrfH8Zq38a10mlSRbrnQCifSfmD7f_aiYIUMlwRgWbQ#_=_
+2018-11-08 21:54:33 INFO  FacebookApiFuncionalidade:73 - code: AQCZMnkHcjMxssTgyXI19_l4OG_LLhCjDgfbK_A9Idu-nBXEejcrWRrJL_6up_RzXRMB0SZirQ8jD4KMewfWscmpzVqWGzyYvQkgBriY0SwMyOWGhmQ0vMl9PhgCIIfK-7QEsESpRm__8BJSU671jDO0tLAYTiwUTePGspTAaiHRV5g2zcKwSyQVKorjF2AY0J5q9PS6okMPrCCiRNlZX-Magri85syaARfpjAyiwDnOA43wUFAol5L-bIUVJ2NlwUIsZiT6FQBLlR1_AiKUi_TlK9PMFKFdi_9Mju5aPHZ60_8EG7N4NU0njFU21pM7r7cPrfH8Zq38a10mlSRbrnQCifSfmD7f_aiYIUMlwRgWbQ#_=_
+2018-11-08 21:54:33 INFO  ApiFuncionalidade:102 - User url acces: https://graph.facebook.com/oauth/access_token?client_id=425423287989927&client_secret=efa0684c4b2b8f98e34bc4ae48cd3f52&redirect_uri=http://localhost:8080/index.html&code=AQCZMnkHcjMxssTgyXI19_l4OG_LLhCjDgfbK_A9Idu-nBXEejcrWRrJL_6up_RzXRMB0SZirQ8jD4KMewfWscmpzVqWGzyYvQkgBriY0SwMyOWGhmQ0vMl9PhgCIIfK-7QEsESpRm__8BJSU671jDO0tLAYTiwUTePGspTAaiHRV5g2zcKwSyQVKorjF2AY0J5q9PS6okMPrCCiRNlZX-Magri85syaARfpjAyiwDnOA43wUFAol5L-bIUVJ2NlwUIsZiT6FQBLlR1_AiKUi_TlK9PMFKFdi_9Mju5aPHZ60_8EG7N4NU0njFU21pM7r7cPrfH8Zq38a10mlSRbrnQCifSfmD7f_aiYIUMlwRgWbQ#_=_
+2018-11-08 21:54:56 INFO  FacebookApiFuncionalidade:120 - response: br.com.luizcruz.automacao.bean.OutPutAutenticacaoResponse@364b1061[accessToken=EAAGC65P1tqcBAG4AsZA0MV7MCm5dagIWeKy3JSiAZBdsuikixEqdx73xkIlJZAk1EMU5QzIvlVZAFjpeVQGfJJ6VOfZBG97ZCOlsLdoCVWcjsZCdMJ0SdZBTOyInZCFwIS7foA3SpBoEebxbZBqyl270S63dwUYr3yAm4yx3k942FQ8gZBYFiX51s2t,tokenType=bearer,expiresIn=<null>,error=<null>,mapaDadosAdicionais={}]
+2018-11-08 21:55:26 INFO  ApiFuncionalidade:116 - App url acces: https://graph.facebook.com/oauth/access_token?client_id=425423287989927&client_secret=efa0684c4b2b8f98e34bc4ae48cd3f52&grant_type=client_credentials
+2018-11-08 21:55:27 INFO  FacebookApiFuncionalidade:120 - response: br.com.luizcruz.automacao.bean.OutPutAutenticacaoResponse@4315c28c[accessToken=425423287989927|NQqHMJ7da5P9RaX6Bawh6qTpSKM,tokenType=bearer,expiresIn=<null>,error=<null>,mapaDadosAdicionais={}]
+2018-11-08 21:55:37 INFO  ApiFuncionalidade:131 - App url acces: https://graph.facebook.com/debug_token?input_token=EAAGC65P1tqcBAG4AsZA0MV7MCm5dagIWeKy3JSiAZBdsuikixEqdx73xkIlJZAk1EMU5QzIvlVZAFjpeVQGfJJ6VOfZBG97ZCOlsLdoCVWcjsZCdMJ0SdZBTOyInZCFwIS7foA3SpBoEebxbZBqyl270S63dwUYr3yAm4yx3k942FQ8gZBYFiX51s2t&access_token=425423287989927|NQqHMJ7da5P9RaX6Bawh6qTpSKM
+2018-11-08 21:55:44 INFO  FacebookApiFuncionalidade:181 - response: br.com.luizcruz.automacao.bean.OutPutDebugTokenResponse@6c33da7a[debugToken=br.com.luizcruz.automacao.bean.DebugToken@69aabcb0[appId=425423287989927,type=USER,application=Luiz's first app,dataAccessExpiresAt=0,expiresAt=0,isValid=true,issuedAt=1541721116,scopes=[user_birthday, user_hometown, user_location, user_likes, user_events, user_photos, user_videos, user_friends, user_status, user_tagged_places, user_posts, user_gender, user_link, user_age_range, email, read_insights, read_audience_network_insights, publish_video, manage_pages, pages_manage_cta, pages_manage_instant_articles, pages_show_list, publish_pages, read_page_mailboxes, ads_management, ads_read, business_management, pages_messaging, pages_messaging_phone_number, pages_messaging_subscriptions, instagram_basic, instagram_manage_comments, instagram_manage_insights, publish_to_groups, groups_access_member_info, leads_retrieval, public_profile],userId=110751349928543,mapaDadosAdicionais={}],mapaDadosAdicionais={}]
+2018-11-08 23:00:23 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 23:00:23 INFO  Hooks:29 - Cenario: O usuário atualiza uma mensagem na sua timeline.
+2018-11-08 23:00:23 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 23:00:27 INFO  Hooks:43 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 23:00:27 INFO  Hooks:44 - Fim do Cenario: 'O usuário atualiza uma mensagem na sua timeline.' teve status undefined
+2018-11-08 23:00:27 INFO  Hooks:45 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 23:23:30 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 23:23:30 INFO  Hooks:29 - Cenario: O usuário atualiza uma mensagem na sua timeline.
+2018-11-08 23:23:30 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 23:23:34 INFO  Hooks:43 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 23:23:34 INFO  Hooks:44 - Fim do Cenario: 'O usuário atualiza uma mensagem na sua timeline.' teve status undefined
+2018-11-08 23:23:34 INFO  Hooks:45 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 23:24:39 INFO  Hooks:28 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 23:24:39 INFO  Hooks:29 - Cenario: O usuário posta uma mensagem na sua timeline.
+2018-11-08 23:24:39 INFO  Hooks:34 - path: C:\workspace\automacao-api-luiz-facebook\src\test\resources\drivers\chromedriver.exe
+2018-11-08 23:24:42 INFO  Hooks:43 - ------------------------------------------------------------------------------------------------------------------------------------------
+2018-11-08 23:24:42 INFO  Hooks:44 - Fim do Cenario: 'O usuário posta uma mensagem na sua timeline.' teve status undefined
+2018-11-08 23:24:42 INFO  Hooks:45 - ------------------------------------------------------------------------------------------------------------------------------------------
